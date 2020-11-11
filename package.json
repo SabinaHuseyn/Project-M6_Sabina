@@ -1,0 +1,65 @@
+{
+  "name": "Project-M6_Sabina",
+  "version": "1.0.0",
+  "description": "Catalog of precious Coins",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot --history-api-fallback",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabinaHuseyn/Project-M6_Sabina.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabinaHuseyn/Project-M6_Sabina/issues"
+  },
+  "homepage": "https://github.com/SabinaHuseyn/Project-M6_Sabina#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "json-loader": "^0.5.7",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.1",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "history": "^4.10.1",
+    "joi-browser": "^13.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-toastify": "^6.0.5",
+    "styled-components": "^5.1.0"
+  }
+}
