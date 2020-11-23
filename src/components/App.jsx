@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Route, Redirect, Switch } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import _ from "lodash";
+// import _ from "lodash";
 import axios from "axios";
 import Homepage from "./Homepage.jsx";
 import LoginForm from "./LoginForm.jsx";
@@ -27,11 +27,11 @@ const App = () => {
     setAccount(account);
   }, []);
   useEffect(() => {
-    const search = _.memoize(async () => {
+    const search = async () => {
       const result = await axios.get("http://localhost:3000/list");
       setCoin(result.data);
       console.log(result.data);
-    });
+    };
     search();
   }, []);
   return (
