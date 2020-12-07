@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import _ from 'lodash';
 import ArrowDown from "../images/ArrowDown.png";
 
 import styled, { keyframes } from "styled-components";
